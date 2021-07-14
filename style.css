@@ -17,16 +17,19 @@ body {
 /* ----------------navbar------------- */
 .top-section {
   background-color: #2d25a0;
+  width: 100vw;
 }
 .header {
   margin: 0 140px;
   padding: 42px 0;
+  
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 16px;
+  
 }
 .bars {
   display: none;
@@ -140,7 +143,7 @@ footer {
 
 /* for mobile device */
 /* navbar */
-@media (max-width: 450px) {
+@media (max-width: 688px) {
   .header {
     margin: 0 auto;
     width: 100%;
@@ -180,6 +183,7 @@ footer {
     width: 329px;
     height: 259.17px;
     margin: 50px 16px;
+    
   }
   /* players */
   .players {
@@ -210,4 +214,32 @@ footer {
       font-size: 20px;
       padding: 15px;
   }
+}
+
+/* for tablets and medium size devices */
+@media (min-width: 689px) and (max-width: 992px){
+   
+    .header{
+        margin: 0 40px;
+    }
+    .nav-links a{
+        padding-right: 5px;
+    }
+    .top-banner{
+        flex-direction: column;
+    }
+    .banner-img img{
+        margin: 50px auto;
+    }
+    .players{
+        grid-template-columns: 1fr 1fr;
+        margin: 10px 30px;
+    }
+    .highlights{
+        flex-direction: column;
+        margin: 20px 40px;
+    }
+    .highlight-img img{
+        margin: 30px;
+    }
 }
