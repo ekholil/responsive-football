@@ -41,6 +41,13 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 140px;
+    
+}
+.watch-btn{
+    transition: 1s ease;
+}
+.top-banner:hover .watch-btn{
+    padding: 10px 40px;
 }
 .banner-text h1{
     color: #fff;
