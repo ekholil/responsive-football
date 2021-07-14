@@ -1,148 +1,213 @@
 /* ------------------ Google fonts ---------------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
 /*------------------ common styles----------------- */
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.btn{
-    background-color: #E02C6D;
-    color: #fff;
-    padding: 10px 24px;
-    text-decoration: none;
+.btn {
+  background-color: #e02c6d;
+  color: #fff;
+  padding: 10px 24px;
+  text-decoration: none;
 }
 
 /* ----------------navbar------------- */
-.top-section{
-    background-color: #2D25A0;
-    ;
+.top-section {
+  background-color: #2d25a0;
 }
-.header{
-    margin: 0 140px;
-    padding: 42px 0;
+.header {
+  margin: 0 140px;
+  padding: 42px 0;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16px;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
 }
-
-.nav-links a{
-    text-decoration: none;
-    color: #fff;
-    padding-right: 36px;
+.bars {
+  display: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 36px;
 }
 
 /* -------------------top banner------------ */
-.top-banner{
-    display: flex;
-    justify-content: space-between;
-    margin: 0 140px;
-    
+.top-banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 140px;
 }
-.watch-btn{
-    transition: 1s ease;
+.watch-btn {
+  transition: 1s ease;
 }
-.top-banner:hover .watch-btn{
-    padding: 10px 40px;
+.top-banner:hover .watch-btn {
+  padding: 10px 40px;
 }
-.banner-text h1{
-    color: #fff;
-    font-size: 55px;
-    font-weight: bold;
+.banner-text h1 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: bold;
 }
 /* Figma te .banner-text h1 er size 64 pixel. kintu ekhane 64 dile 4 line hoye jai. tai md sakib ahmed vai er poramorshe font-size ektu komiye dilam design thik rakhar jonno */
-.banner-img img{
-    width: 556.01px;
-height: 438px;
+.banner-img img {
+  width: 556.01px;
+  height: 438px;
 }
 
 /* player section */
-.players{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 27px;
-    margin: 70px 140px;
+.players {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 27px;
+  margin: 70px 140px;
 }
-.player{
-    padding: 10px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+.player {
+  padding: 10px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 }
-.player h3{
-    font-size: 28px;
-    margin-top: 16px;
-    margin-bottom: 10px;
+.player h3 {
+  font-size: 28px;
+  margin-top: 16px;
+  margin-bottom: 10px;
 }
-.player p{
-    margin-top: 0;
-    font-size: 16px;
-    color: #6C6C6C;
+.player p {
+  margin-top: 0;
+  font-size: 16px;
+  color: #6c6c6c;
 }
-.player img{
-    Width : 300px;
-    Height : 256px;
+.player img {
+  width: 300px;
+  height: 256px;
 }
 
 /* ------------highlights section----------- */
 
-.highlights{
-  margin: 90px 140px ;
-    align-items: center;
-    display: flex;
+.highlights {
+  margin: 90px 140px;
+  align-items: center;
+  display: flex;
 }
-.highlight-text h1{
-    font-size: 35px;
-    margin: 8px 0;
+.highlight-text h1 {
+  font-size: 35px;
+  margin: 8px 0;
 }
-.highlight-text p{
-    margin-bottom: 30px;
-    color: #6C6C6C;
+.highlight-text p {
+  margin-bottom: 30px;
+  color: #6c6c6c;
 }
-.highlight-img img{
-    width: 567px;
-    height: 427px;
-    margin-left: 66px;
+.highlight-img img {
+  width: 567px;
+  height: 427px;
+  margin-left: 66px;
 }
 
 /* footer  */
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
-.footer-box{
-    width: 483.87px;
-height: 213px;
-text-align: center;
-margin-bottom: 63px;
+.footer-box {
+  width: 483.87px;
+  height: 213px;
+  text-align: center;
+  margin-bottom: 63px;
 }
-.img img{
-    width: 483.87px;
-height: 110px;
+.img img {
+  width: 483.87px;
+  height: 110px;
 }
-.icon i{
-    font-size: 2em;
-    color: #969BAB;
-    background: #E7E7E8;
-    padding: 20px;
-    border-radius: 50px;
-    margin: 0 10px;
+.icon i {
+  font-size: 2em;
+  color: #969bab;
+  background: #e7e7e8;
+  padding: 20px;
+  border-radius: 50px;
+  margin: 0 10px;
 }
-.text p{
-    font-size: 18px;
-    
+.text p {
+  font-size: 18px;
 }
 /* footer section end */
 
+/* for mobile device */
+/* navbar */
+@media (max-width: 450px) {
+  .header {
+    margin: 0 auto;
+    width: 100%;
+    
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 18px;
+  }
+  .bars {
+    display: block;
+    color: #fff;
+    font-size: 2em;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links a {
+    padding: 15px 10px;
+  }
 
+  /* top-banner */
+  .top-banner {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .banner-text h1 {
+    font-size: 36px;
+    margin-left: 16px;
+  }
+  .watch-btn {
+    margin-left: 19px;
+  }
+  .banner-img img {
+    width: 329px;
+    height: 259.17px;
+    margin: 50px 16px;
+  }
+  /* players */
+  .players {
+    grid-template-columns: 1fr;
+    margin: 0 15px;
+  }
+  .player img{
+    width: 100%;
+    height: auto;
+  }
 
-
-
-
-
-
+  /* highlights */
+  .highlights {
+    flex-direction: column;
+    margin: 60px 15px;
+  }
+  .highlight-img img {
+    width: 328px;
+    height: 248px;
+    margin: 50px 16px;
+  }
+  /* footer */
+  .img img{
+    width: 271px;
+    height: 63px;
+  }
+  .icon i{
+      font-size: 20px;
+      padding: 15px;
+  }
+}
