@@ -5,6 +5,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .btn{
     background-color: #E02C6D;
@@ -43,9 +44,10 @@ body{
 }
 .banner-text h1{
     color: #fff;
-    font-size: 64px;
+    font-size: 55px;
     font-weight: bold;
 }
+/* Figma te .banner-text h1 er size 64 pixel. kintu ekhane 64 dile 4 line hoye jai. tai md sakib ahmed vai er poramorshe font-size ektu komiye dilam design thik rakhar jonno */
 .banner-img img{
     width: 556.01px;
 height: 438px;
@@ -79,13 +81,55 @@ height: 438px;
 }
 
 /* ------------highlights section----------- */
+
+.highlights{
+  margin: 90px 140px ;
+    align-items: center;
+    display: flex;
+}
+.highlight-text h1{
+    font-size: 35px;
+    margin: 8px 0;
+}
+.highlight-text p{
+    margin-bottom: 30px;
+    color: #6C6C6C;
+}
 .highlight-img img{
     width: 567px;
     height: 427px;
+    margin-left: 66px;
 }
 
-
-
+/* footer  */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.footer-box{
+    width: 483.87px;
+height: 213px;
+text-align: center;
+margin-bottom: 63px;
+}
+.img img{
+    width: 483.87px;
+height: 110px;
+}
+.icon i{
+    font-size: 2em;
+    color: #969BAB;
+    background: #E7E7E8;
+    padding: 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+.text p{
+    font-size: 18px;
+    
+}
 
 
 
